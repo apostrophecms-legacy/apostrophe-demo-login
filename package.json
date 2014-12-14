@@ -1,6 +1,6 @@
 {
   "name": "apostrophe-demo-login",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Force login as \"admin\" at the start of a new browser session. Only works if the password is still set to \"demo\", but you should disable this module once you fork our sandbox anyway.",
   "main": "index.js",
   "scripts": {
