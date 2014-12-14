@@ -7,6 +7,10 @@ function factory(options, callback) {
 factory.Construct = function(options, callback) {
   var self = this;
 
+  if (!options.enabled) {
+    return setImmediate(callback);
+  }
+
   // "Protected" properties. We want related modules and subclasses to be able
   // to access these, thus no variables defined in the closure
   self._apos = options.apos;
